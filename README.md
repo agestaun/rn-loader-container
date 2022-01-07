@@ -2,8 +2,6 @@
 
 Useful container to show animated views while you get and load the data to display.
 
-https://user-images.githubusercontent.com/9607291/148540925-f18a7ae4-d652-4213-b58f-974ac9b7f830.mov
-
 ## Commands
 
 Install the dependency
