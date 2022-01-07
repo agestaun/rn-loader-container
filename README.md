@@ -2,6 +2,11 @@
 
 Useful container to show animated views while you get and load the data to display.
 
+<p float="left">
+  <img src="https://user-images.githubusercontent.com/9607291/148542031-be04224d-8a74-4524-9ec0-5e8f760e3492.gif" width="250"/>
+  <img src="https://user-images.githubusercontent.com/9607291/148541676-a9c7812b-488a-44ba-acae-e35f412b287a.gif" width="250"/>
+</p>
+
 ## Commands
 
 Install the dependency
@@ -22,7 +27,7 @@ import {View} from 'react-native';
 const MyListScreen = () => {
   return (
     <View>
-      <LoaderContainer total={4}>{MockupItem}</LoaderContainer>
+      <LoaderContainer total={2}>{MockupItem}</LoaderContainer>
     </View>
   );
 }
