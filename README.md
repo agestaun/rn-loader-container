@@ -18,7 +18,7 @@ import LoaderContainer from 'rn-loader-container';
 import MockupItem from './components/MockupItem';
 import {View} from 'react-native';
 
-// MockupItem is the to display with the effect.
+// MockupItem is the view to display with the effect inside the container.
 const MyListScreen = () => {
   return (
     <View>
