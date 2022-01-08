@@ -1,18 +1,15 @@
 {
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "rn-loader-container",
   "description": "Adds animated effect to the content, so the app can load whatever is needed.",
   "keywords": ["loader", "shinny", "loading animation", "react native loader"],
   "author": "Adrián García Estaún",
   "license": "MIT",
-  "main": "src/index.js",
+  "main": "src/index.tsx",
   "homepage": "https://github.com/agestaun/rn-loader-container",
   "bugs": {
     "email": "a.g.estaun@gmail.com",
     "url": "https://github.com/agestaun/rn-loader-container/issues"
-  },
-  "engines": {
-    "node": ">=10"
   },
   "scripts": {
     "start": "tsdx watch",
@@ -25,9 +22,6 @@
     "prepare": "tsdx build",
     "size": "size-limit",
     "analyze": "size-limit --why"
-  },
-  "peerDependencies": {
-    "react": ">=16"
   },
   "prettier": {
     "printWidth": 80,
