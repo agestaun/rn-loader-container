@@ -1,5 +1,5 @@
 {
-  "version": "0.1.1",
+  "version": "0.1.11",
   "name": "rn-loader-container",
   "description": "Adds animated effect to the content, so the app can load whatever is needed.",
   "keywords": ["loader", "shinny", "loading animation", "react native loader"],
@@ -29,7 +29,6 @@
   },
   "devDependencies": {
     "@size-limit/preset-small-lib": "7.0.5",
-    "@types/react": "17.0.38",
     "@typescript-eslint/eslint-plugin": "5.9.0",
     "@typescript-eslint/parser": "5.9.0",
     "eslint": "7.19.0",
@@ -45,6 +44,7 @@
   },
   "dependencies": {
     "@types/react-native": "0.66.11",
+    "@types/react": "17.0.38",
     "react-native": "0.66.4"
   }
 }
