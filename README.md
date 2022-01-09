@@ -40,5 +40,5 @@ export default MyListScreen;
 | Prop     | Description | Default       |
 |----------|-------------|:-------------:|
 | total    | Number of items. If the value is greater than 1, the content will be multiplied by that number.  | 1
-| opacity  | The opacity to apply with the animation (0.5 by default)                                         | 0.5
+| opacity  | The opacity to apply with the animation.                                                         | 0.5
 | duration | Animation duration in milliseconds.                                                              | 700
