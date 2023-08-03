@@ -39,10 +39,7 @@ const LoaderContainer = ({
   const getItems = () => {
     if (total) {
       const items = [];
-
-      for (let i = 0; i < total; i++) {
-        items.push(children);
-      }
+      for (let i = 0; i < total; i++) items.push(children);
       return items.map((item) => item);
     } else {
       return children;
